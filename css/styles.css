@@ -39,15 +39,19 @@ nav ul li a button{
 }
 .main{
     padding: 20px;
-    background-color: #fff;
+    background-color: #0c4731;
+    color: #fff;
     margin: 20px auto;
     max-width: 800px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-/* Images */
+.main h2 {text-align: center; 
+           margin: 0 auto;
+           font-size: initial;
+         }
 img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 footer{
     text-align: center;
@@ -57,4 +61,16 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+.pic{width: 100%; /* Adjust width as needed */ 
+    height: auto; /* This ensures the image scales proportionally */ 
+    max-width: 500px; /* Set a max width to control the largest size */ 
+    border: 2px solid #000; /* Optional: add a border */ 
+    border-radius: 8px; /* Optional: rounded corners */ 
+    display: block; /* Ensures the image is treated as a block element */ 
+    margin: 0 auto; /* Center the image */ 
+}
+#bold{
+    font-size: large;
+    color: aqua;
 }
